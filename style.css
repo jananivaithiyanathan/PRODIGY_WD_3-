@@ -1,0 +1,128 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    position: relative;
+    bottom: 7.28px;
+    right: 10px;
+    width: 1424px;
+    
+    
+    
+}
+.navbar h1{
+    color: white;
+    position: relative ;
+    left: 10px;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.navbar ul li{
+    list-style-type: none;
+}
+.navbar ul li :hover{
+    color: honeydew;
+}
+#HOME img{
+    width: 300px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+   
+}
+#HOME h1{
+    position: relative;
+    right: 100px;
+    bottom: 100px;
+}
+#HOME h2{
+    position: relative;
+    left: 500px;
+    bottom: 100px;
+}
+#HOME p{
+    position: relative;
+    left: 400px;
+    bottom: 100px;
+}
+
+
+body{
+    background: #333;
+    text-transform: uppercase;
+}
+h1{
+    text-align: center;
+}
+h3{
+    margin: 5px;
+}
+#SKILL{
+    width: 500px;
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+}
+#SKILL li{
+    margin: 20px 0;
+    padding: 10px;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.12),0 10px 10px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg,rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+}
+.Html{
+    width: 85%;
+    animation: html;
+}
+.Css{
+    width: 79%;
+    animation:Css ;
+}
+.Python{
+    width: 30%;
+    animation: Python;
+}
+.Excel{
+    width: 50%;
+    animation: Excel;
+}
+#CERTIFICATIONS{
+    color: #fff;
+}
+#CERTIFICATIONS img {
+    width: 275px;
+    border-radius: 50px;
+}
+#CONTACT h1{
+    color: white;
+}
+#CONTACT h3{
+    text-align: center;
+}
+#CONTACT p{
+    text-align: center;
+}
+
